@@ -5,7 +5,7 @@ import platform
 import cv2
 import numpy as np
 
-path = 'C:\\Users\\tdbbr\\Documents\\ssss\\sss\\'
+path = ''
 screenshot_path = f'{path}screenshot.png'
 def get_null_device():
     return 'NUL' if platform.system() == 'Windows' else '/dev/null'
@@ -110,51 +110,51 @@ while True:
         link_app = job['linkapp']
         open_application(link_app)
         swipe_down()
-        url_br = f'{path}btn//urlBr.png'
+        url_br = f'{path}/btn/urlBr.png'
         center_x, center_y = get_locate(url_br, "Url br")
         adb_click(center_x, center_y)
         input_text('https://tria.ge/submit/file')
         input_key_enter()
 
-        button_next = f'{path}btn//btnNext.png'
+        button_next = f'{path}/btn/btnNext.png'
         center_x, center_y = get_locate(button_next, "Button Cookies")
         if center_x is not None:
-            button_cookies = f'{path}btn//btnCookie.png'
+            button_cookies = f'{path}/btn/btnCookie.png'
             center_x, center_y = get_locate(button_cookies, "Button Cookies")
             adb_click(center_x, center_y)
 
-            input_login = f'{path}btn//inputLogin.png'
+            input_login = f'{path}/btn/inputLogin.png'
             center_x, center_y = get_locate(input_login, "Button Login")
             adb_click(center_x, center_y)
             input_text(user_name)
             input_key_enter()
             input_text("Buithanhvan1!")
-        input_link = f'{path}btn//inputLink.png'
+        input_link = f'{path}/btn/inputLink.png'
         center_x, center_y = swipe_check_button(input_link, 10, "input_link")
         adb_click(center_x, center_y)
         input_text(file)
 
-        btn_fet = f'{path}btn//btnFet.png'
+        btn_fet = f'{path}/btn/btnFet.png'
         center_x, center_y = swipe_check_button(btn_fet, 10, "btn_fet")
         adb_click(center_x, center_y)
         time.sleep(1)
-        btn_des = f'{path}btn//btnDes.png'
+        btn_des = f'{path}/btn/btnDes.png'
         center_x, center_y = swipe_check_button(btn_des, 10, "btn_des")
         adb_click(center_x, center_y)
 
-        btn_exe = f'{path}btn//btnExe.png'
+        btn_exe = f'{path}/btn/btnExe.png'
         center_x, center_y = swipe_check_button(btn_exe, 10, "btn_exe")
         adb_click(center_x, center_y)
 
-        btn_win_10 = f'{path}btn//btnWin10.png'
+        btn_win_10 = f'{path}/btn/btnWin10.png'
         center_x, center_y = swipe_check_button(btn_win_10, 10, "btn_win_10")
         adb_click(center_x, center_y)
 
-        btn_10_p = f'{path}btn//btn10p.png'
+        btn_10_p = f'{path}/btn/btn10p.png'
         center_x, center_y = swipe_check_button(btn_10_p, 10, "btn_10_p")
         adb_click(center_x, center_y)
 
-        btn_Analy = f'{path}btn//btnAnaly.png'
+        btn_Analy = f'{path}/btn/btnAnaly.png'
         center_x, center_y = swipe_check_button(btn_Analy, 10, "btn_Analy")
         adb_click(center_x, center_y)
         time.sleep(1)
