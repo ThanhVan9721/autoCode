@@ -89,15 +89,15 @@ def swipe_check_button(screen_find, number_swipe, name_action):
         time.sleep(1)
     return None, None
 jobs = [
-    {'username': 'olgahird+sx1@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowset", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x11.zip'},
-    {'username': 'olgahird+sx2@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowses", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x12.zip'},
-    {'username': 'olgahird+sx3@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowseu", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x13.zip'},
-    {'username': 'olgahird+sx4@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowseq", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x14.zip'},
-  	{'username': 'olgahird+sx5@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsez", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x15.zip'},
-  	{'username': 'olgahird+sx6@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsey", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x16.zip'},
-  	{'username': 'olgahird+sx7@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsex", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x17.zip'},
-  	{'username': 'olgahird+sx8@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsev", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x18.zip'},
-  	{'username': 'olgahird+sx9@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsew", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x19.zip'},
+    {'username': 'olgahird+sx11@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowset", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x11.zip'},
+    {'username': 'olgahird+sx12@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowses", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x12.zip'},
+    {'username': 'olgahird+sx13@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowseu", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x13.zip'},
+    {'username': 'olgahird+sx14@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowseq", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x14.zip'},
+  	{'username': 'olgahird+sx15@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsez", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x15.zip'},
+  	{'username': 'olgahird+sx16@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsey", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x16.zip'},
+  	{'username': 'olgahird+sx17@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsex", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x17.zip'},
+  	{'username': 'olgahird+sx18@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsev", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x18.zip'},
+  	{'username': 'olgahird+sx19@gmail.com', "linkapp":"mobi.mgeek.TunnyBrowsew", 'file': 'https://github.com/ThanhVan9721/cz/archive/refs/heads/x19.zip'},
 ]
 
 count = 0
